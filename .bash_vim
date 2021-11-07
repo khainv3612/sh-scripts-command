@@ -1,0 +1,29 @@
+" +------------------+
+" | GENERAL SETTINGS |
+" +------------------+
+
+#set autoindent 
+filetype plugin indent on
+
+#split 
+:sp
+:vs
+
+#close current windown
+:q
+zz
+
+#jump to head line
+0
+
+#jump to end line
+$
+
+#jump to head and end file
+          G   and  gg
+
+v     --highlight a selected text area
+V     --select current line
+vap   --select current paragraph
+ggVG  --select whole file
+

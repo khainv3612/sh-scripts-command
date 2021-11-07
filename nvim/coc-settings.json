@@ -1,0 +1,16 @@
+{
+  "codeLens.enable": false,
+  "java.referencesCodeLens.enabled": true,
+  "java.jdt.ls.vmargs": "-javaagent:/usr/local/share/lombok/lombok.jar",
+
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "typescript",
+    "javascript",
+    "javascriptreact",
+    "typescriptreact",
+    "json",
+    "java"
+  ]
+}

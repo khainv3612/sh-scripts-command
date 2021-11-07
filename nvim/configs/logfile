@@ -1,0 +1,24 @@
+[?1049h[22;0;0t[22;0;0t[?1h=[H[2J]11;?[?2004h[?25h[?25l(B[m[H[2J[23Bchdir(/home/dc/.config/nvim/configs)[K[H[23M
+chdir(/etc/xdg//nvim)[K
+chdir(/home/dc/.config/nvim/configs)[K
+could not source "/etc/xdg//nvim/sysinit.vim"[K
+chdir(/home/dc/.config/nvim/configs)[K
+chdir(/usr/share/nvim)[K
+chdir(/home/dc/.config/nvim/configs)[K
+could not source "$VIM/sysinit.vim"[K
+chdir(/home/dc/.config/nvim/configs)[K
+chdir(/home/dc/.config/nvim)[K
+chdir(/home/dc/.config/nvim/configs)[K
+sourcing "/home/dc/.config/nvim/init.vim"[K
+line 1: for f in split(glob('~/.config/nvim/configs/*.vim'), '\n')[K
+line 2:    exe 'source' f[K
+line 2: source /home/dc/.config/nvim/configs/01.plugins.vim[K
+chdir(/home/dc/.config/nvim/configs)[K
+chdir(/home/dc/.config/nvim/configs)[K
+chdir(/home/dc/.config/nvim/configs)[K
+line 2: sourcing "/home/dc/.config/nvim/configs/01.plugins.vim"[K
+line 1: call plug#begin('~/.config/nvim/bundle')[K
+Searching for "autoload/plug.vim" in "/home/dc/.config/nvim,/etc/xdg/nvim,/home/
+dc/.local/share/nvim/site,/usr/local/share/nvim/site,/usr/share/nvim/site,/var/l
+ib/snapd/desktop/nvim/site,/usr/share/nvim/runtime,/var/lib/snapd/desktop/nvim/s
+-- More --[K]112[1 q]112[1 q[?25h
