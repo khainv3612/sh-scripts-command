@@ -1,0 +1,39 @@
+B1:Kích hoạt Windows Subsystem for Linux
+
+1. Mở Start.
+
+2. Tìm kiếm Turn Windows features on or off.
+
+3. Tích vào tùy chọn Hyper - V,  Windows Subsystem for Linux
+
+4.OK=>REBOOT
+
+
+Bước 2: Khởi chạy Powershell quyền Admin và lần lượt thực thi các dòng lệnh sau
+
+ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
+ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
+ shutdown /r /t 0
+
+B3:Virtual Machine Platform
+
+1.PowerShell=>Run as administrator
+
+2. Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
+
+3.reboot
+
+B4.Kích hoạt Windows Subsystem for Linux 2
+
+1. Tai va install WSL2: https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+
+2..PowerShell=>Run as administrator
+
+3. wsl --set-default-version 2
+
+4.Cài Distro: Microsoft Store=>search ubuntu, ...
+
+
+** sử dụng câu lệnh wsl –shutdown trên CMD hoặc Powershell để tắt hoàn toàn WSL, tránh bị tiến trình VMmem chạy ngầm tốn bộ nhớ RAM
